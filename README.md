@@ -36,9 +36,9 @@ Router/Firewall
     │       ↓
     │   Home Server (All Services)
     │
-    └─→ Nginx Proxy Manager (Selective Public Access)
+    └─→ Cloudflare Tunnel + Nginx Proxy Manager (Selective Public Access)
             ↓
-        SSL/TLS (Let's Encrypt)
+        SSL/TLS (Let's Encrypt + Cloudflare)
             ↓
         Public Services (e.g., Jellyfin)
 ```
