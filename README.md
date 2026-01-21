@@ -73,9 +73,10 @@ Router/Firewall
 - Encrypted peer-to-peer connections
 - Personal devices only
 
-**Public Access (Nginx Proxy Manager)**
+**Public Access (Nginx Proxy Manager + Cloudflare Tunnel)**
 - Selective exposure of specific services
 - SSL/TLS encryption via Let's Encrypt
+- Cloudflare Tunnel for secure public access without port forwarding
 - Authentication where applicable
 - Services like Jellyfin for trusted friends/family
 
@@ -96,7 +97,7 @@ Router/Firewall
 - [ ] Hardware transcoding optimization for Jellyfin
 - [ ] Backup and disaster recovery solutions
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Infrastructure**
 - Proxmox VE
